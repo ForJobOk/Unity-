@@ -1,4 +1,7 @@
-﻿using System.Collections;
+//学習内容:①OnCollisionEnter2D,OnTriggerEnter2D
+//①それぞれ、他のオブジェクトとの接触時に呼び出される。引数で何と衝突した時か指定できる。
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
