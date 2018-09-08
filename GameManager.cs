@@ -1,4 +1,12 @@
-﻿using System.Collections;
+//学習内容__①プレハブ__②isKinematic(重力)__③tag__④PlayerPrefs__⑤Invoke
+//①ゲームオブジェクトをアセットとして登録し、複製を簡単に作れるようにする仕組みのこと
+//②isKinematicで物理エンジンの影響の有効、無効を切り替えれる。
+//③gameObject.tag == "タグ名"でゲームオブジェクトにタグを設定することができる。種類を区別したいときに使う。
+//④情報を記憶する仕組み。キーを設定して、値を書き込み(保存)、値を読み出し(保存したものの取り出し？)を行うことができる。
+//⑤Invoke("メソッド名", 秒数f)＿＿第一引数で指定したメソッドを第二引数で指定した秒数後に呼び出す。
+
+//Gravityメソッドは本の説明のUNITYとバージョンが違ったので自分で考えて作った。初めて自分で人のコードを改変したかもしれない。ちゃんと動いて感動した。
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
