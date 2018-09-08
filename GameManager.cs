@@ -1,4 +1,5 @@
-//学習内容__①プレハブ__②isKinematic(重力)__③tag__④PlayerPrefs__⑤Invoke
+//学習内容： ①プレハブ__②isKinematic(重力)__③tag__④PlayerPrefs__⑤Invoke
+
 //①ゲームオブジェクトをアセットとして登録し、複製を簡単に作れるようにする仕組みのこと
 //②isKinematicで物理エンジンの影響の有効、無効を切り替えれる。
 //③gameObject.tag == "タグ名"でゲームオブジェクトにタグを設定することができる。種類を区別したいときに使う。
